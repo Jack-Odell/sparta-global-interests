@@ -1,14 +1,19 @@
 .top-margin {
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+.bottom-margin {
+  margin-bottom: 2%;
+}
+
+.li-footer {
+  list-style-type: none;
+  /* display: inline-block; */
+  text-align: center;
 }
 
 .margin-sides {
   margin: 0 5%;
-}
-
-.low-opacity {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 
 .blockquote {
@@ -16,6 +21,14 @@
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+}
+
+.blockquote-reverse {
+  background: #f9f9f9;
+  border-right: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  text-align: left;
 }
 
 .uppercase {
@@ -26,10 +39,44 @@
   font-family: 'VT323', monospace;
 }
 
+.font-tech {
+  font-family: 'Share Tech Mono', monospace;
+}
+
 .font-size-normal {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .font-size-small {
   font-size: 15px;
+}
+
+.letter-space {
+  letter-spacing: 1px;
+}
+
+.indent {
+  margin-left: 5%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.jumbo-color {
+  background-color: #89E5FF;
+}
+
+.jumbo-color-two {
+  background-color: #FFC389;
+}
+
+@media screen and (max-width: 991px) {
+    p.font-size-big {
+      font-size: 30px;
+    }
+
+    img.hide-img {
+      display: none;
+    }
 }
